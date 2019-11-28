@@ -1,6 +1,7 @@
 import React from "react";
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css";
+import "./style.scss";
 
 class Navigation extends React.Component {
   componentDidMount() {

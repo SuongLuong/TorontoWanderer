@@ -4,6 +4,7 @@ import Slider from "./components/slider/slider";
 import "materialize-css/dist/css/materialize.min.css";
 import Search from "./components/search/search";
 import Information from "./components/information/information";
+import Place from "./components/place/place";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Slider />
       <Search />
       <Information />
+      <Place />
     </>
   );
 }

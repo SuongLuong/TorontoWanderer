@@ -2,6 +2,9 @@ import React from "react";
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css";
 import "./style.scss";
+import ttc1 from "../../assets/img/vectore-img1.png";
+import ttc2 from "../../assets/img/vectore-img2.png";
+import ttc3 from "../../assets/img/vectore-img3.png";
 
 class Information extends React.Component {
   componentDidMount() {
@@ -17,39 +20,40 @@ class Information extends React.Component {
           have roots across the globe. Art, food, beaches, nightlife – in
           Toronto, you’ve got it all.
         </p>
-        <ul className="collapsible">
+        <ul className="collapsible popout collapse">
           <li>
             <div className="collapsible-header">
               <i className="material-icons">ac_unit</i>Read More
             </div>
             <div className="collapsible-body">
-              <h1>Arts and Culture</h1>
+              <h1>Best Time To Visit</h1>
               <p>
-                Where to begin? Toronto is itself a cultural phenomenon, with
-                residents from around the world and scores of languages, foods,
-                customs and celebrations – they’re what make the city great. As
-                Canada’s largest city, Toronto has outstanding museums and
-                galleries, from the Frank Gehry–redesigned Art Gallery of
-                Ontario to the delightful Bata Shoe Museum (yes, shoes). The
-                same goes for theatres; the gorgeous Elgin and Winter Garden
-                Theatre has backstage tours as well as regular shows, and
-                Shakespeare in High Park channels the Bard every summer. There’s
-                live music, poetry readings, comedy shows, LGBTIQ+ spots and
-                more, too.
+                Late spring, early summer and fall are the most pleasant walking
+                months in the city—and this is a walkable city. September, one
+                of the loveliest months of the year, is also packed with the
+                Toronto International Film Festival fêtes and a spate of other
+                weekend festivals.
               </p>
-              <h1>Food</h1>
+              <h1>Toronto Transportation</h1>
               <p>
-                People gotta eat, and nowhere is Toronto’s remarkable diversity
-                more evident than in its food and restaurants. Pakistani,
-                Persian, Portuguese; aboriginal and new fusion; Japanese
-                pancakes and Korean barbecue; fresh pasta in Little Italy,
-                shawarmas in Greektown and the best damn dumplings in Chinatown.
-                Torontonians love to eat out, whether it's sitting at sidewalk
-                bistros on a warm summer night or getting all bundled up for
-                some hot Vietnamese pho. That's to say nothing of Toronto’s
-                great food on the go – there are peameal-bacon sandwiches at St
-                Lawrence Market and food trucks selling an array of fragrant
-                delights.
+                The Toronto Transportation Commission runs an underground subway
+                system, streetcars and buses to get you from uptown to the
+                waterfront (prices start at $3.10). Licensed taxis and Uber are
+                also common. PRESTO is an electronic payment system that makes
+                paying for your trip simple, convenient and secure. A $6
+                non-refundable fee applies to new PRESTO cards. You need to load
+                a minimum of $10.00 and/or load a transit pass to start with a
+                tap.
+                <div>
+                  <div>
+                    <img className="ttc-img" src={ttc1} alt=""></img>
+                    <span>PRESTO works in lots of places.</span>
+                    <img className="ttc-img" src={ttc2} alt=""></img>
+                    <span>Pay for transit on your terms.</span>
+                    <img className="ttc-img" src={ttc3} alt=""></img>
+                    <span>Travel with peace of mind.</span>
+                  </div>
+                </div>
               </p>
               <h1>Nightlife</h1>
               <p>

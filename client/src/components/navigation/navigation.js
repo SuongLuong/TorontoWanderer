@@ -13,7 +13,7 @@ class Navigation extends React.Component {
     return (
       <>
         <div className="navbar-fixed">
-          <nav className="blue">
+          <nav className="black">
             <div className="container">
               <div className="nav-wrapper">
                 <a href="#home" className="brand-logo">

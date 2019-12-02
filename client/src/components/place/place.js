@@ -1,7 +1,7 @@
 import React from "react";
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css";
-import "./style.scss";
+import "./style.css";
 import toronto5 from "../../assets/img/toronto5.jpg";
 import toronto2 from "../../assets/img/toronto2.jpg";
 import toronto3 from "../../assets/img/toronto3.jpg";
@@ -31,7 +31,7 @@ class Place extends React.Component {
           <div className="row">
             <Slider {...settings} className="container">
               <div className="col cardslider s12 m4">
-                <div className="card">
+                <div className=" hovereffect card">
                   <div className="card-image">
                     <img src={toronto2} alt=""></img>
                     <span className="card-title">Cn Tower</span>

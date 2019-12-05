@@ -20,11 +20,11 @@ class Navigation extends React.Component {
                   Toronto Wanderer
                 </a>
                 <a
-                  href=""
+                  href="#home"
                   className="sidenav-trigger"
                   data-target="mobileview-nav"
                 >
-                  <icon className="material-icons">menu</icon>
+                  <div className="material-icons">menu</div>
                 </a>
                 <ul className="right hide-on-med-and-down">
                   <li>

@@ -12,8 +12,8 @@ function App() {
     <>
       <Navigation />
       <Slider />
-      <Search />
       <Information />
+      <Search />
       <Place />
       <Food />
     </>

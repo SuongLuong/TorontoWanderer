@@ -5,11 +5,18 @@ import "./style.scss";
 import ttc1 from "../../assets/img/vectore-img1.png";
 import ttc2 from "../../assets/img/vectore-img2.png";
 import ttc3 from "../../assets/img/vectore-img3.png";
+import parallax2 from "../../assets/img/parallax2.jpg";
 
 class Information extends React.Component {
   componentDidMount() {
+    let options = {
+      responsiveThreshold: 0
+    };
     let collapse = document.querySelectorAll(".collapsible");
     M.Collapsible.init(collapse, {});
+
+    const parallax = document.querySelectorAll(".parallax");
+    var instances = M.Parallax.init(parallax, options);
   }
   render() {
     return (
@@ -35,10 +42,10 @@ class Information extends React.Component {
                 weekend festivals.
               </p>
               <h1>Toronto Transportation</h1>
-              <p>
+              <div>
                 The Toronto Transportation Commission runs an underground subway
                 system, streetcars and buses to get you from uptown to the
-                waterfront (prices start at $3.10). Licensed taxis and Uber are
+                waterfront prices start at $3.10. Licensed taxis and Uber are
                 also common. PRESTO is an electronic payment system that makes
                 paying for your trip simple, convenient and secure. A $6
                 non-refundable fee applies to new PRESTO cards. You need to load
@@ -54,7 +61,7 @@ class Information extends React.Component {
                     <span>Travel with peace of mind.</span>
                   </div>
                 </div>
-              </p>
+              </div>
               <h1>Nightlife</h1>
               <p>
                 No matter what your taste in drinks and nightlife, Toronto has
@@ -71,6 +78,12 @@ class Information extends React.Component {
             </div>
           </li>
         </ul>
+        <div className="parallax-container">
+          {" "}
+          <div className="parallax">
+            <img src={parallax2} />
+          </div>
+        </div>
       </>
     );
   }

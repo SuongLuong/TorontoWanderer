@@ -1,0 +1,32 @@
+[
+  {
+    "id": "place1",
+    "name": "CN Tower",
+    "area": "Entertainment Districts"
+  },
+  {
+    "id": "place2",
+    "name": "Royal Ontario Museum",
+    "area": "Yorkville Village"
+  },
+  {
+    "id": "place3",
+    "name": "Distillery District",
+    "area": "Distillery District"
+  },
+  {
+    "id": "place4",
+    "name": "Habourfront Centre",
+    "area": "Arts Center Waterfront"
+  },
+  {
+    "id": "place5",
+    "name": "High Park",
+    "area": "West End"
+  },
+  {
+    "id": "place6",
+    "name": "Eaton Centre",
+    "area": "Downtown Yonge"
+  }
+]

@@ -33,10 +33,11 @@ class Search extends React.Component {
                 <div className="input-field">
                   <input
                     id="autocomplete-input"
-                    placeholder="Top Attractions, Weather, Restaurants, etc..."
+                    placeholder="Search"
                     type="text"
                     className="white grey-text autocomplete"
-                  ></input>
+                    onChange={this.props.handleInput}
+                  />
                 </div>
               </div>
             </div>

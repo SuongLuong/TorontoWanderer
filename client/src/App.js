@@ -2,20 +2,38 @@ import React from "react";
 import Navigation from "./components/navigation/navigation";
 import Slider from "./components/slider/slider";
 import "materialize-css/dist/css/materialize.min.css";
-import Search from "./components/search/search";
 import Information from "./components/information/information";
 import Place from "./components/place/place";
-import Food from "./components/food/food";
+import FoodList from "./components/foodlist/foodlist";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import PlaceDetail from "./components/placedetail/placedetail";
 
 function App() {
   return (
     <>
       <Navigation />
-      <Slider />
+      <BrowserRouter>
+        <Switch>
+          <Route
+            path="/"
+            exact
+            render={props => (
+              <>
+                <Slider />
+                <Information />
+                <Place />
+                <FoodList />
+              </>
+            )}
+          />
+          <Route path="/:id" component={PlaceDetail} />
+        </Switch>
+      </BrowserRouter>
+
+      {/* <Slider />
       <Information />
-      <Search />
       <Place />
-      <Food />
+      <FoodList /> */}
     </>
   );
 }

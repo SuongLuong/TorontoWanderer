@@ -7,7 +7,7 @@ import Place from "./components/place/place";
 import FoodList from "./components/foodlist/foodlist";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import PlaceDetail from "./components/placedetail/placedetail";
-
+import Video from "./components/video/video";
 function App() {
   return (
     <>
@@ -21,6 +21,7 @@ function App() {
               <>
                 <Slider />
                 <Information />
+                <Video />
                 <Place />
                 <FoodList />
               </>
@@ -29,11 +30,6 @@ function App() {
           <Route path="/:id" component={PlaceDetail} />
         </Switch>
       </BrowserRouter>
-
-      {/* <Slider />
-      <Information />
-      <Place />
-      <FoodList /> */}
     </>
   );
 }

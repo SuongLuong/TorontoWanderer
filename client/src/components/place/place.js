@@ -159,12 +159,12 @@ class Place extends React.Component {
             </div>
           </section>
         )}
-        <div className="parallax-container">
+        {/* <div className="parallax-container">
           {" "}
           <div className="parallax">
             <img src={parallax1} />
           </div>
-        </div>
+        </div> */}
       </>
     );
   }

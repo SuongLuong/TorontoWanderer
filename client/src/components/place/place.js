@@ -25,7 +25,7 @@ class Place extends React.Component {
     M.Parallax.init(parallax, options);
 
     axios
-      .get("http://localhost:8080/")
+      .get("http://localhost:8080/places")
       .then(response => {
         this.setState({
           place: response.data

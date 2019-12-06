@@ -1,4 +1,15 @@
 img {
   width: 500px;
-  height: 500px;
+  height: 800px;
+}
+
+.heading {
+  font-family: monospace;
+  font-size: 100px;
+  line-height: 100px;
+
+  &__subtitle {
+    font-family: serif;
+    font-size: 40px;
+  }
 }

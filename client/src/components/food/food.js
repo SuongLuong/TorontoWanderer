@@ -4,7 +4,7 @@ class Food extends React.Component {
   render() {
     return (
       <>
-        <div className="foodsection">
+        <div id="foodmap" className="foodsection">
           <div className="foodlistsec">
             <div className="item1">
               <span>{this.props.name}</span>

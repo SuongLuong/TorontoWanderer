@@ -2,25 +2,26 @@ import React from "react";
 import "./style.scss";
 import Food from "../food/food";
 import Search from "../search/search";
+import axios from "axios";
 
 class FoodList extends React.Component {
   state = {
-    restaurants: [
-      {
-        name: "Restaurant1",
-        type: "Italy"
-      },
-      {
-        name: "Restaurant2",
-        type: "Asia"
-      },
-      {
-        name: "Restaurant3",
-        type: "Mexico"
-      }
-    ],
+    restaurants: [],
     search: ""
   };
+
+  componentDidMount() {
+    axios
+      .get("http://localhost:8080/restaurants")
+      .then(response => {
+        this.setState({
+          restaurants: response.data
+        });
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  }
 
   handleInput = e => {
     console.log(e.target.value);

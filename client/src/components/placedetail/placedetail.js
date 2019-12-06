@@ -9,7 +9,7 @@ class PlaceDetail extends React.Component {
   componentDidMount() {
     let id = this.props.match.params.id;
     axios
-      .get(`http://localhost:8080/${id}`)
+      .get(`http://localhost:8080/places/${id}`)
       .then(response => {
         this.setState({
           placeDetail: response.data
@@ -34,12 +34,14 @@ class PlaceDetail extends React.Component {
                 <button>Buy Ticket</button>
               </a>
               <div>
-                <ul>
-                  <li>{this.state.placeDetail.street}</li>
-                  <li>{this.state.placeDetail.phone}</li>
-                  <li>{this.state.placeDetail.hours}</li>
-                  <li>{this.state.placeDetail.website}</li>
-                </ul>
+                <div>
+                  <p>Address: {this.state.placeDetail.street}</p>
+                  <p>Phone: {this.state.placeDetail.phone}</p>
+                  <p>Hours: {this.state.placeDetail.hours}</p>
+                </div>
+                <a href={this.state.placeDetail.website}>
+                  <p>Check their Website</p>
+                </a>
               </div>
             </div>
           ) : null}

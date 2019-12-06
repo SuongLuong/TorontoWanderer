@@ -13,7 +13,8 @@ app.use(cors());
 app.use(express.json());
 
 // routes
-app.use("/", placeRoute);
+app.use("/places", placeRoute);
+app.use("/restaurants", restaurantRoute);
 // app.use("./restaurant", restaurantRoute);
 
 app.listen(8080, () => console.log("server working"));

@@ -9,7 +9,6 @@ import PlaceDetail from "./components/placedetail/placedetail";
 import RestaurantDetail from "./components/restaurantdetail/restaurantdetail";
 import Video from "./components/video/video";
 import RestaurantList from "./components/restaurantlist/restaurantlist";
-import SearchTest from "./components/searchtest/searchtest";
 
 function App() {
   return (

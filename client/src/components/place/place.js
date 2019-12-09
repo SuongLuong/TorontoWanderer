@@ -53,7 +53,7 @@ class Place extends React.Component {
       <>
         {this.state.place.length === 0 ? null : (
           <section id="popular" className="section section-popular scrollspy">
-            <h1>TOP experiences in Toronto</h1>
+            <h1 className="place__title">Top Experiences in Toronto</h1>
             <div className="row">
               <Slider {...settings} className="container">
                 <Link
@@ -64,7 +64,11 @@ class Place extends React.Component {
                   <div className="col cardslider s12 m4">
                     <div className="card">
                       <div className="card-image">
-                        <img src={toronto2} alt=""></img>
+                        <img
+                          className="card-image"
+                          src={this.state.place[0].image}
+                          alt=""
+                        ></img>
                         <span className="card-title">
                           {this.state.place[0].name}
                         </span>
@@ -80,7 +84,11 @@ class Place extends React.Component {
                   <div className="col cardslider s12 m4">
                     <div className="card">
                       <div className="card-image">
-                        <img src={toronto3} alt=""></img>
+                        <img
+                          className="card-image"
+                          src={this.state.place[1].image}
+                          alt=""
+                        ></img>
                         <span className="card-title">
                           {this.state.place[1].name}
                         </span>
@@ -96,7 +104,11 @@ class Place extends React.Component {
                   <div className="col cardslider s12 m4">
                     <div className="card">
                       <div className="card-image">
-                        <img src={toronto4} alt=""></img>
+                        <img
+                          className="card-image"
+                          src={this.state.place[2].image}
+                          alt=""
+                        ></img>
                         <span className="card-title">
                           {this.state.place[2].name}
                         </span>
@@ -112,7 +124,11 @@ class Place extends React.Component {
                   <div className="col cardslider s12 m4">
                     <div className="card">
                       <div className="card-image">
-                        <img src={toronto4} alt=""></img>
+                        <img
+                          className="card-image"
+                          src={this.state.place[3].image}
+                          alt=""
+                        ></img>
                         <span className="card-title">
                           {this.state.place[3].name}
                         </span>
@@ -128,7 +144,11 @@ class Place extends React.Component {
                   <div className="col cardslider s12 m4">
                     <div className="card">
                       <div className="card-image">
-                        <img src={toronto4} alt=""></img>
+                        <img
+                          className="card-image"
+                          src={this.state.place[4].image}
+                          alt=""
+                        ></img>
                         <span className="card-title">
                           {this.state.place[4].name}
                         </span>
@@ -144,7 +164,11 @@ class Place extends React.Component {
                   <div className="col cardslider s12 m4">
                     <div className="card">
                       <div className="card-image">
-                        <img src={toronto4} alt=""></img>
+                        <img
+                          className="card-image"
+                          src={this.state.place[5].image}
+                          alt=""
+                        ></img>
                         <span className="card-title">
                           {this.state.place[5].name}
                         </span>

@@ -1,11 +1,12 @@
 import React from "react";
 import video from "../../assets/img/video.mp4";
 import "./style.scss";
+
 class Video extends React.Component {
   render() {
     return (
       <>
-        <video autoPlay muted loop id="myVideo">
+        <video muted loop id="myVideo">
           <source src={video} type="video/mp4" />
         </video>
         <div className="content">

@@ -20,37 +20,39 @@ class Slider extends React.Component {
 
   render() {
     return (
-      <section className="slider">
-        <ul className="slides">
-          <li>
-            <img src={toronto1} alt="" />
-            <div className="caption center-align">
-              <h2 className="heading">Toronto</h2>
-              <h5 className="heading__subtitle light grey-text text-lighten-3">
-                Canada's Downtown
-              </h5>
-            </div>
-          </li>
-          <li>
-            <img src={toronto2} alt="" />
-            <div className="caption center-align">
-              <h2 className="heading">Hello, Friends!</h2>
-              <h5 className="heading__subtitle light grey-text text-lighten-3">
-                Ready To Discover
-              </h5>
-            </div>
-          </li>
-          <li>
-            <img src={toronto3} alt="" />
-            <div className="caption center-align">
-              <h2 className="heading">Your Journey</h2>
-              <h5 className="heading__subtitle ight grey-text text-lighten-3">
-                Adventures in the Snowy City
-              </h5>
-            </div>
-          </li>
-        </ul>
-      </section>
+      <div className="slider-section">
+        <section className="slider">
+          <ul className="slides">
+            <li>
+              <img className="slider-img" src={toronto1} alt="" />
+              <div className="caption center-align">
+                <h2 className="heading">Toronto</h2>
+                <h5 className="heading__subtitle light grey-text text-lighten-3">
+                  Canada's Downtown
+                </h5>
+              </div>
+            </li>
+            <li>
+              <img src={toronto2} alt="" />
+              <div className="caption center-align">
+                <h2 className="heading">Hello, Friends!</h2>
+                <h5 className="heading__subtitle light grey-text text-lighten-3">
+                  Ready To Discover
+                </h5>
+              </div>
+            </li>
+            <li>
+              <img className="slider-img" src={toronto3} alt="" />
+              <div className="caption center-align">
+                <h2 className="heading">Your Journey</h2>
+                <h5 className="heading__subtitle ight grey-text text-lighten-3">
+                  Adventures in the Snowy City
+                </h5>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
     );
   }
 }

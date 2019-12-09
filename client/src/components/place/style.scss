@@ -15,3 +15,21 @@
 .row .col.m4 {
   width: 100%;
 }
+
+.section {
+  position: relative;
+  bottom: 350px;
+}
+
+.place {
+  &__title {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+}
+
+.card-image {
+  width: 314px;
+  height: 500px;
+}

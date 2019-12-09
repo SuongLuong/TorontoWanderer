@@ -2,31 +2,37 @@
   {
     "id": "place1",
     "name": "CN Tower",
-    "area": "Entertainment Districts"
+    "area": "Entertainment Districts",
+    "image": "https://images.unsplash.com/photo-1496012407504-b55ea740d172?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80"
   },
   {
     "id": "place2",
     "name": "Royal Ontario Museum",
-    "area": "Yorkville Village"
+    "area": "Yorkville Village",
+    "image": "https://images.unsplash.com/photo-1538295012701-0c25e3eccec1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
   },
   {
     "id": "place3",
     "name": "Distillery District",
-    "area": "Distillery District"
+    "area": "Distillery District",
+    "image": "https://images.unsplash.com/photo-1545321288-d6a54310b23a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80"
   },
   {
     "id": "place4",
     "name": "Habourfront Centre",
-    "area": "Arts Center Waterfront"
+    "area": "Arts Center Waterfront",
+    "image": "https://images.unsplash.com/photo-1533417457911-4ec911485388?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80"
   },
   {
     "id": "place5",
     "name": "High Park",
-    "area": "West End"
+    "area": "West End",
+    "image": "https://images.unsplash.com/photo-1494679493189-8d8c38804d39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "place6",
     "name": "Eaton Centre",
-    "area": "Downtown Yonge"
+    "area": "Downtown Yonge",
+    "image": "https://images.unsplash.com/photo-1570037769027-2d945b1b65d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1332&q=80"
   }
 ]

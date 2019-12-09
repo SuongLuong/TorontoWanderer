@@ -4,10 +4,12 @@ import Slider from "./components/slider/slider";
 import "materialize-css/dist/css/materialize.min.css";
 import Information from "./components/information/information";
 import Place from "./components/place/place";
-import FoodList from "./components/foodlist/foodlist";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import PlaceDetail from "./components/placedetail/placedetail";
+import RestaurantDetail from "./components/restaurantdetail/restaurantdetail";
 import Video from "./components/video/video";
+import RestaurantList from "./components/restaurantlist/restaurantlist";
+
 function App() {
   return (
     <>
@@ -20,14 +22,15 @@ function App() {
             render={props => (
               <>
                 <Slider />
-                <Information />
-                <Video />
-                <Place />
-                <FoodList />
+                <Information id="section1" />
+                <Video id="section2" />
+                <Place id="section3" />
+                <RestaurantList id="section4" />
               </>
             )}
           />
-          <Route path="/:id" component={PlaceDetail} />
+          <Route exact path="/:id" component={PlaceDetail} />
+          <Route exact path="/restaurants/:id" component={RestaurantDetail} />
         </Switch>
       </BrowserRouter>
     </>

@@ -1,13 +1,9 @@
 import React from "react";
 import "materialize-css/dist/css/materialize.min.css";
 import "./style.scss";
-import toronto2 from "../../assets/img/toronto2.jpg";
-import toronto3 from "../../assets/img/toronto3.jpg";
-import toronto4 from "../../assets/img/toronto4.jpg";
 import Slider from "react-slick";
 import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
-import parallax1 from "../../assets/img/parallax1.jpg";
 import M from "materialize-css";
 import axios from "axios";
 import { Link } from "react-router-dom";
@@ -40,11 +36,11 @@ class Place extends React.Component {
     const settings = {
       dots: true,
       slidesToScroll: 1,
-      autoplay: false,
-      infinite: false,
+      autoplay: true,
+      infinite: true,
       centerPadding: "0px",
       slidesToShow: 3,
-      // speed: 3000,
+      speed: 3000,
       autoplaySpeed: 0,
       cssEase: "linear"
     };
@@ -68,7 +64,7 @@ class Place extends React.Component {
                           className="card-image"
                           src={this.state.place[0].image}
                           alt=""
-                        ></img>
+                        />
                         <span className="card-title">
                           {this.state.place[0].name}
                         </span>
@@ -88,7 +84,7 @@ class Place extends React.Component {
                           className="card-image"
                           src={this.state.place[1].image}
                           alt=""
-                        ></img>
+                        />
                         <span className="card-title">
                           {this.state.place[1].name}
                         </span>

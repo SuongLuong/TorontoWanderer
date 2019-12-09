@@ -7,14 +7,15 @@ class Search extends React.Component {
     const auto = document.querySelector(".autocomplete");
     M.Autocomplete.init(auto, {
       data: {
-        Experiences: null,
-        Foods: null,
+        "Italy Restaurant": null,
+        "Vietnameese Restaurant": null,
+        Bars: null,
         Drinks: null,
         Restaurants: null,
         Spots: null,
         Weather: null,
         "Public Transportation": null,
-        Events: null,
+        BubbleTea: null,
         "Top Attractions": null
       }
     });
@@ -29,11 +30,11 @@ class Search extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col s12">
-                <h3>Search Your Journey Here</h3>
+                <h3>Search Your Restaurants</h3>
                 <div className="input-field">
                   <input
                     id="autocomplete-input"
-                    placeholder="Search"
+                    placeholder="Restaurants, Coffee, Bar, ..."
                     type="text"
                     className="white grey-text autocomplete"
                     onChange={this.props.handleInput}

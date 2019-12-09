@@ -1,17 +1,16 @@
 .card-content {
   font-size: 20px;
+  font-family: "Dancing Script", cursive;
 }
 
 .card-title {
-  font-family: "Courier New", Courier, monospace;
-  font-style: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.parallax-container {
-  height: 250px;
-  width: 100%;
+.card {
+  border-radius: 20px;
 }
-
 .row .col.m4 {
   width: 100%;
 }
@@ -21,15 +20,18 @@
   bottom: 350px;
 }
 
-.place {
-  &__title {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    text-align: center;
-  }
+.card-image {
+  width: 313px;
+  height: 450px;
 }
 
-.card-image {
-  width: 314px;
-  height: 500px;
+.card .card-image img {
+  display: block;
+  border-radius: 20px 20px 0 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
 }

@@ -5,18 +5,14 @@ import "./style.scss";
 import ttc1 from "../../assets/img/vectore-img1.png";
 import ttc2 from "../../assets/img/vectore-img2.png";
 import ttc3 from "../../assets/img/vectore-img3.png";
-import parallax2 from "../../assets/img/parallax2.jpg";
 
 class Information extends React.Component {
   componentDidMount() {
-    let options = {
-      responsiveThreshold: 0
-    };
     let collapse = document.querySelectorAll(".collapsible");
     M.Collapsible.init(collapse, {});
 
     const parallax = document.querySelectorAll(".parallax");
-    var instances = M.Parallax.init(parallax, {});
+    M.Parallax.init(parallax, {});
   }
   render() {
     return (

@@ -9,7 +9,8 @@
     "street": "301 Front St W",
     "phone": "416-868-6937",
     "hours": "8:30am-11pm",
-    "website": "https://www.cntower.ca/intro.html"
+    "website": "https://www.cntower.ca/intro.html",
+    "map": "../assets/images/cnmap.png"
   },
   {
     "id": "place2",

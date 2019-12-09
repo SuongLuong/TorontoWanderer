@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.scss";
-import Food from "../restaurant/restaurant";
+import Restaurant from "../restaurant/restaurant";
 import Search from "../search/search";
 import axios from "axios";
 
@@ -55,7 +55,7 @@ class RestaurantList extends React.Component {
               location
             } = item;
             return (
-              <Food
+              <Restaurant
                 key={name}
                 name={name}
                 type={type}

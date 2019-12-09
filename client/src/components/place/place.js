@@ -49,7 +49,7 @@ class Place extends React.Component {
       <>
         {this.state.place.length === 0 ? null : (
           <section id="popular" className="section section-popular scrollspy">
-            <h1 className="place__title">Top Experiences in Toronto</h1>
+            <h1 className="place-title">Top Experiences in Toronto</h1>
             <div className="row">
               <Slider {...settings} className="container">
                 <Link

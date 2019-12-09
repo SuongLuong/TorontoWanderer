@@ -25,14 +25,6 @@
     color: green;
   }
 }
-.parallax-container {
-  width: 100%;
-  height: 300px;
-}
-.parallax {
-  height: 100px;
-  width: 100%;
-}
 
 .info {
   &__header {
@@ -67,11 +59,15 @@
   &__heading {
     font-size: 25px;
     font-weight: 500;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
 
   &__subtitle {
     font-size: 20px;
     padding-right: 100px;
     text-align: left;
+    font-family: "Baskervville", serif;
+    color: seagreen;
   }
 }

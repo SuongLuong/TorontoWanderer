@@ -25,7 +25,7 @@ class Search extends React.Component {
       <>
         <section
           id="search"
-          className="section section-search blue darken-1 white-text center scrollspy"
+          className="section section-search light-blue darken-1 white-text center scrollspy"
         >
           <div className="container">
             <div className="row">

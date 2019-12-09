@@ -40,14 +40,18 @@ class RestaurantDetail extends React.Component {
                 />
               </div>
               <div className="restaurantDetails__right">
-                <p className="restaurantDetails__descript">
+                <p className="restaurantDetails__description">
                   {this.state.restaurantDetail.description}
                 </p>
                 <div>
-                  <h5>Details</h5>
+                  <h5 className="restaurantDetails__detail">Details</h5>
                   <div>
-                    <p>Address: {this.state.restaurantDetail.location}</p>
-                    <p>Hours: {this.state.restaurantDetail.hours}</p>
+                    <p className="restaurantDetails__detaillist">
+                      Address: {this.state.restaurantDetail.location}
+                    </p>
+                    <p className="restaurantDetails__detaillist">
+                      Hours: {this.state.restaurantDetail.hours}
+                    </p>
                   </div>
                 </div>
               </div>

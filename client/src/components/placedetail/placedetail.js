@@ -39,28 +39,29 @@ class PlaceDetail extends React.Component {
                   src={this.state.placeDetail.image}
                   alt=""
                 />
-                <img
-                  className="placedetails__img"
-                  src={this.state.placeDetail.map}
-                  alt=""
-                />
               </div>
               <div className="placedetails__right">
-                <p className="placedetails__descript">
+                <p className="placedetails__description">
                   {this.state.placeDetail.description}
                 </p>
                 <div>
-                  <h4>Tickets and tours</h4>
+                  <h4 className="placedetails__ticket">Tickets and tours</h4>
                   <a href={this.state.placeDetail.link}>
-                    <button>Buy Ticket</button>
+                    <button className="placedetails__bstn">Buy Ticket</button>
                   </a>
                 </div>
                 <div>
-                  <h5>Details</h5>
+                  <h5 className="placedetails__detail">Details</h5>
                   <div>
-                    <p>Address: {this.state.placeDetail.street}</p>
-                    <p>Phone: {this.state.placeDetail.phone}</p>
-                    <p>Hours: {this.state.placeDetail.hours}</p>
+                    <p className="placedetails__detaillist">
+                      Address: {this.state.placeDetail.street}
+                    </p>
+                    <p className="placedetails__detaillist">
+                      Phone: {this.state.placeDetail.phone}
+                    </p>
+                    <p className="placedetails__detaillist">
+                      Hours: {this.state.placeDetail.hours}
+                    </p>
                   </div>
                   <a href={this.state.placeDetail.website}>
                     <p>Check their Website</p>

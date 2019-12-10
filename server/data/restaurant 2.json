@@ -1,0 +1,56 @@
+[
+  {
+    "id": "restaurant1",
+    "name": "Fika Cafe",
+    "type": "Coffee Shop",
+    "description": "Originally used as a Swedish verb meaning “to go out for coffee,” the word fika can also be used as a noun: “coffee break”. It is standard in Sweden to invite friends to fika every few hours during the work day. One’s coffee is normally accompanied with a small snack such as a cinnamon bun or a piece of cake. Our logo is represented by the Dala horse, which is a symbol of Sweden. Fika Café provides a cozy place in Toronto for people to come and break away from the ordinary with exceptional coffees, teas and housemade pastries, served by one of our welcoming baristas.",
+    "image": "https://images.squarespace-cdn.com/content/v1/59382d0f8419c22045f22376/1518232823536-89PBLXJG2II3YSPVFFFA/ke17ZwdGBToddI8pDm48kAegX-1irUL6qWVp5YHdPlZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0kD6Ec8Uq9YczfrzwR7e2MhtiLfXVvImLpDdoVYmcyh_AcJVOluizfCsxozWDxokZg/IMG_0293.jpg?format=1500w",
+    "location": "28 Kensington Ave Toronto, Ontario, M5T 2J9, Canada",
+    "hours": "HOURS Monday - Sunday 10am-6pm Daily"
+  },
+  {
+    "id": "restaurant2",
+    "name": "Bang Bang IceCream",
+    "type": "Icecream Shop"
+  },
+  {
+    "id": "restaurant3",
+    "name": "Dineen Coffee Company",
+    "type": "Coffee Shop"
+  },
+  {
+    "id": "restaurant4",
+    "name": "Bar Raval",
+    "type": "Barcelona Restaurant"
+  },
+  {
+    "id": "restaurant5",
+    "name": "The Alley",
+    "type": "Bubble Tea Shop"
+  },
+  {
+    "id": "restaurant6",
+    "name": "Pho Hung",
+    "type": "Vietnamese Restaurant"
+  },
+  {
+    "id": "restaurant7",
+    "name": "Jimmy's Coffee",
+    "type": "Coffee Shop"
+  },
+  {
+    "id": "restaurant8",
+    "name": "Sotto Sotto",
+    "type": "Italian Restaurant"
+  },
+  {
+    "id": "restaurant9",
+    "name": "Canoe Restaurant and Bar",
+    "type": "Bar"
+  },
+  {
+    "id": "restaurant10",
+    "name": "Alo Restaurant",
+    "type": "French Restaurant"
+  }
+]

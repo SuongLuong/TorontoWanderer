@@ -9,6 +9,8 @@ import PlaceDetail from "./components/placedetail/placedetail";
 import RestaurantDetail from "./components/restaurantdetail/restaurantdetail";
 import Video from "./components/video/video";
 import RestaurantList from "./components/restaurantlist/restaurantlist";
+import Footer from "./components/footer/footer";
+import Gallery from "./components/gallery/gallery";
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
                 <Video id="section2" />
                 <Place id="section3" />
                 <RestaurantList id="section4" />
+                <Gallery />
               </>
             )}
           />
@@ -33,6 +36,7 @@ function App() {
           <Route exact path="/restaurants/:id" component={RestaurantDetail} />
         </Switch>
       </BrowserRouter>
+      <Footer />
     </>
   );
 }

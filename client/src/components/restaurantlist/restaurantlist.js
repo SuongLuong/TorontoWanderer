@@ -3,6 +3,7 @@ import "./style.scss";
 import Restaurant from "../restaurant/restaurant";
 import Search from "../search/search";
 import axios from "axios";
+import Flip from "react-reveal/Flip";
 
 class RestaurantList extends React.Component {
   state = {
@@ -55,16 +56,18 @@ class RestaurantList extends React.Component {
               location
             } = item;
             return (
-              <Restaurant
-                key={name}
-                name={name}
-                type={type}
-                image={image}
-                location={location}
-                hours={hours}
-                description={description}
-                id={id}
-              />
+              <Flip key={id} left>
+                <Restaurant
+                  key={name}
+                  name={name}
+                  type={type}
+                  image={image}
+                  location={location}
+                  hours={hours}
+                  description={description}
+                  id={id}
+                />
+              </Flip>
             );
           })}
         </div>

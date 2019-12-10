@@ -6,7 +6,7 @@ class Video extends React.Component {
   render() {
     return (
       <>
-        <video controls autoPlay muted loop id="myVideo">
+        <video controls muted loop id="myVideo">
           <source src={video} type="video/mp4" />
         </video>
         <div className="content">

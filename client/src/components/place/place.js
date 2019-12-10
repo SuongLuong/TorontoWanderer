@@ -4,7 +4,6 @@ import "./style.scss";
 import Slider from "react-slick";
 import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
-import M from "materialize-css";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
@@ -14,12 +13,6 @@ class Place extends React.Component {
   };
 
   componentDidMount() {
-    let options = {
-      responsiveThreshold: 0
-    };
-    const parallax = document.querySelectorAll(".parallax");
-    M.Parallax.init(parallax, options);
-
     axios
       .get("http://localhost:8080/places")
       .then(response => {
@@ -179,16 +172,9 @@ class Place extends React.Component {
             </div>
           </section>
         )}
-        {/* <div className="parallax-container">
-          {" "}
-          <div className="parallax">
-            <img src={parallax1} />
-          </div>
-        </div> */}
       </>
     );
   }
-  // }
 }
 
 export default Place;

@@ -2,7 +2,7 @@ import React from "react";
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css";
 import "./style.scss";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 class Navigation extends React.Component {
   componentDidMount() {

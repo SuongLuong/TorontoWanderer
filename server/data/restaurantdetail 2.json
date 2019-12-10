@@ -1,0 +1,52 @@
+[
+  {
+    "id": "restaurant1",
+    "name": "Fika Cafe",
+    "type": "Coffee Shop"
+  },
+  {
+    "id": "restaurant2",
+    "name": "Bang Bang Icecream",
+    "type": "Icecream Shop"
+  },
+  {
+    "id": "restaurant3",
+    "name": "Dineen Coffee Company",
+    "type": "Coffee Shop"
+  },
+  {
+    "id": "restaurant4",
+    "name": "Bar Raval",
+    "type": "Barcelona Restaurant"
+  },
+  {
+    "id": "restaurant5",
+    "name": "The Alley",
+    "type": "Bubble Tea Shop"
+  },
+  {
+    "id": "restaurant6",
+    "name": "Pho Hung",
+    "type": "Vietnamese Restaurant"
+  },
+  {
+    "id": "restaurant7",
+    "name": "Jimmy's Coffee",
+    "type": "Coffee Shop"
+  },
+  {
+    "id": "restaurant8",
+    "name": "Sotto Sotto",
+    "type": "Italian Restaurant"
+  },
+  {
+    "id": "restaurant9",
+    "name": "Canoe Restaurant and Bar",
+    "type": "Bar"
+  },
+  {
+    "id": "restaurant10",
+    "name": "Alo Restaurant",
+    "type": "French Restaurant"
+  }
+]

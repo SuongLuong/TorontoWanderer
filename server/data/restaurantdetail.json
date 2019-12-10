@@ -1,0 +1,92 @@
+[
+  {
+    "id": "restaurant1",
+    "name": "Fika Cafe",
+    "type": "Coffee Shop",
+    "description": "Originally used as a Swedish verb meaning “to go out for coffee,” the word fika can also be used as a noun: “coffee break”. It is standard in Sweden to invite friends to fika every few hours during the work day. One’s coffee is normally accompanied with a small snack such as a cinnamon bun or a piece of cake. Our logo is represented by the Dala horse, which is a symbol of Sweden. Fika Café provides a cozy place in Toronto for people to come and break away from the ordinary with exceptional coffees, teas and housemade pastries, served by one of our welcoming baristas.",
+    "image": "https://images.squarespace-cdn.com/content/v1/59382d0f8419c22045f22376/1518232823536-89PBLXJG2II3YSPVFFFA/ke17ZwdGBToddI8pDm48kAegX-1irUL6qWVp5YHdPlZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0kD6Ec8Uq9YczfrzwR7e2MhtiLfXVvImLpDdoVYmcyh_AcJVOluizfCsxozWDxokZg/IMG_0293.jpg?format=1500w",
+    "location": "28 Kensington Ave Toronto, Ontario, M5T 2J9, Canada",
+    "hours": "HOURS Monday - Sunday 10am-6pm Daily"
+  },
+  {
+    "id": "restaurant2",
+    "name": "Bang Bang IceCream",
+    "type": "Icecream Shop",
+    "description": "Bang Bang Ice Cream and Bakery is an offshoot of the notoriously fabulous Bakerbots bakery. The new digs don't have the cute touches of Bakerbots, but the vaulted ceiling, white tile and simple lines do the trick. The bakery and ice cream production sits in the back and as you hem and haw over your ice cream choice, you can see resting racks, bags of flour, ovens, and mixers and tubs, and all the special ingredients that have gone into your treats, ready to go.",
+    "image": "https://www.blogto.com/listings/bakery/upload/2014/06/20140606-bangbang590-11.jpg",
+    "location": "93 Ossington Ave., Ontario, M5T 2J9, Canada",
+    "hours": "Monday - Sunday 10am-6pm Daily"
+  },
+  {
+    "id": "restaurant3",
+    "name": "Dineen Coffee Company",
+    "type": "Coffee Shop",
+    "description": "The Dineen Coffee Co. opened its doors in Spring 2013 at the corner of famous Yonge Street and Temperance Street, in downtown Toronto. Our first cafe was built in the historic Dineen Building, once home to W. and F. Dineen Co., who originally made fur clothing. The building is one of the oldest structures in Toronto, and is listed as a Toronto Heritage Property. Since then, we have opened two additional locations in Toronto. One in the atrium of the venerable Commerce Court West office tower. The other is located at the corner of Gerrard Street East and Galt Avenue in Leslieville.",
+    "image": "http://dineencoffee.com/build/images/v2/commerce-court-1.jpg",
+    "location": "140 Yonge Street Toronto, ON, M5C 1X6 Canada",
+    "hours": "Monday - Sunday 10am-6pm Daily"
+  },
+  {
+    "id": "restaurant4",
+    "name": "Bar Raval",
+    "type": "Barcelona Restaurant",
+    "description": "A Barcelona-inspired pinxto  bar with small plates to share and a variety of cocktails, beer, wine and fortifieds.",
+    "image": "https://images.prismic.io/barraval/0a25203f8ac9785e86077941003f36ba2f0a05ba_desktop_barraval_bar_2160x1440.jpg?auto=compress,format",
+    "location": "505 COLLEGE ST TORONTO, Ontario, M5T 2J9, Canada",
+    "hours": "Monday - Sunday 10am-6pm Daily"
+  },
+  {
+    "id": "restaurant5",
+    "name": "The Alley",
+    "type": "Bubble Tea Shop",
+    "description": "The Alley is proof that not all bubble tea cafes are created equally. This cafe, the first Canadian location of a fledgling Taiwanese chain, offers creative teas and other beverages in an inviting space filled with exposed brick and lots of wood. The vibe is definitely more relaxed than your average bubble tea shop.",
+    "image": "http://blogto.com/listings/cafes/upload/2016/06/20160313-590-TheAlley11.jpg",
+    "location": "505 Highway 7 Ontario, M5T 2J9, Canada",
+    "hours": "Monday - Sunday 10am-6pm Daily"
+  },
+  {
+    "id": "restaurant6",
+    "name": "Pho Hung",
+    "type": "Vietnamese Restaurant",
+    "description": "Nguyễn Đắc Thòi brought his family and talent over to Canada in 1980. With the help of his family and hard work, he was able to open the first Phở Hưng Restaurant at 374 Spadina Avenue in 1985. Though that location is no more, it lays the foundation for the present.The location at  374 Spadina Avenue was relocated to a larger and brighter 350 Spadina Avenue building. And with that success, two locations were opened, 200 Bloor Street West and then 1195 Dundas Street East (Mississauga). 200 Bloor Street closed down due to real estate development.",
+    "image": "https://tayloronhistory.files.wordpress.com/2012/12/dscn9360_thumb.jpg?w=584&h=383&zoom=2",
+    "location": "28 Kensington Ave Toronto, Ontario, M5T 2J9, Canada",
+    "hours": "Monday - Sunday 10am-6pm Daily"
+  },
+  {
+    "id": "restaurant7",
+    "name": "Jimmy's Coffee",
+    "type": "Coffee Shop",
+    "description": "Another one of Toronto’s coffee micro-chains, Jimmy’s Coffee knows what’s up when it comes to pouring a mean espresso or Americano. The Kensington Market outpost offers friendly service, knowledgeable staff and a fabulous back patio in the heart of the vibrant neighborhood.",
+    "image": "https://images.squarespace-cdn.com/content/v1/57e83c25d2b857a31e1a6f20/1478879916695-FQJWPQGD5IJ5HXMYNZ7R/ke17ZwdGBToddI8pDm48kLJXQjpc-yWDKGokof8ZYb5Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyvMLJO5Nc1jHayiyhnEEdtiL0fAxQ5VfgiNwce99YG5amUuI-5NVRyc6OSuLOpZwE/image-asset.png",
+    "location": "28 Kensington Ave Toronto, Ontario, M5T 2J9, Canada",
+    "hours": "Monday - Sunday 10am-6pm Daily"
+  },
+  {
+    "id": "restaurant8",
+    "name": "Sotto Sotto",
+    "type": "Italian Restaurant",
+    "description": "Using only the freshest ingredients Ristorante Sotto Sotto offers a considerable menu of simple classics and traditional creations. To start there is an abundance of wonderful salads and antipasti. Pastas are available as a second or main course dish. Main courses feature veal, beef, seafood and poultry and there are also “risotto for two” options. We also serve delicious gelati and desserts including homemade tiramisu made in the  time honoured traditional style of the Rocca family.",
+    "image": "https://i1.wp.com/dolcemag.com/wp-content/uploads/2015/03/Sotto-Sotto-restaurant.jpg?fit=800%2C470&ssl=1",
+    "location": "28 Kensington Ave Toronto, Ontario, M5T 2J9, Canada",
+    "hours": "Monday - Sunday 10am-6pm Daily"
+  },
+  {
+    "id": "restaurant9",
+    "name": "Canoe Restaurant and Bar",
+    "type": "Bar",
+    "description": "Connecting people to place through contemporary Canadian cuisine, Canoe crafts inspired dishes reflective of our country’s diverse landscape, history and culture. Our chefs work closely with farmers and suppliers to source the finest ingredients from across the nation. With over 20 years of culinary history, Canoe continues to challenge creative boundaries in the spirit of celebrating Canada and its distinct provinces.",
+    "image": "https://www.canoerestaurant.com/wp-content/uploads/sites/23/2019/02/Canoe-Busy-Evening-Interior-Room-7726.jpg",
+    "location": "28 Kensington Ave Toronto, Ontario, M5T 2J9, Canada",
+    "hours": "Monday - Sunday 10am-6pm Daily"
+  },
+  {
+    "id": "restaurant10",
+    "name": "Alo Restaurant",
+    "type": "French Restaurant",
+    "description": "Alo is a contemporary French restaurant and cocktail bar located atop a heritage building in downtown Toronto. We celebrate the finest in seasonal ingredients paired with genuine hospitality. Our dining room offers blind, multi-course tasting menus, which our sommeliers complement with distinctive wines from both familiar and little-known regions and producers. Our barroom, which accepts walk-ins, features classically-inspired cocktails and a sharing-style, à la carte menu consisting of raw seafood, meat-based entrées, vegetable-focused sides and desserts. We accept a few reservations in our barroom each evening.",
+    "image": "http://alorestaurant.com/wp-content/uploads/2015/10/alo_portraits_may2017-544.jpg",
+    "location": "28 Kensington Ave Toronto, Ontario, M5T 2J9, Canada",
+    "hours": "Monday - Sunday 10am-6pm Daily"
+  }
+]

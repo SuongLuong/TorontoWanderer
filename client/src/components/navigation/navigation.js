@@ -1,6 +1,8 @@
 import React from "react";
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css";
+import "./style.scss";
+import { Link } from "react-scroll";
 
 class Navigation extends React.Component {
   componentDidMount() {
@@ -12,36 +14,46 @@ class Navigation extends React.Component {
     return (
       <>
         <div className="navbar-fixed">
-          <nav className="blue">
+          <nav className="black">
             <div className="container">
               <div className="nav-wrapper">
-                <a href="#home" className="brand-logo">
+                <a href="/" className="brand-logo">
                   Toronto Wanderer
                 </a>
-                <a
-                  href=""
-                  className="sidenav-trigger"
-                  data-target="mobileview-nav"
-                >
-                  <icon className="material-icons">menu</icon>
-                </a>
+
                 <ul className="right hide-on-med-and-down">
-                  <li>
-                    <a href="home">Home</a>
+                  <li className="nav-list">
+                    <a href="/">Home</a>
                   </li>
-                  <li>
-                    <a href="search">Search</a>
+
+                  <li className="nav-list">
+                    <Link
+                      activeClass="active"
+                      to="section3"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      Experiences
+                    </Link>
                   </li>
-                  <li>
-                    <a href="experience">Experiences</a>
+                  <li className="nav-list">
+                    <Link
+                      activeClass="active"
+                      to="section4"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      Search
+                    </Link>
                   </li>
-                  <li>
-                    <a href="discovery">Discovery</a>
-                  </li>
-                  <li>
+                  <li className="nav-list">
                     <a href="gallery">Gallery</a>
                   </li>
-                  <li>
+                  <li className="nav-list">
                     <a href="contact">Contact</a>
                   </li>
                 </ul>
@@ -49,26 +61,6 @@ class Navigation extends React.Component {
             </div>
           </nav>
         </div>
-        <ul className="sidenav" id="mobileview-nav">
-          <li>
-            <a href="home">Home</a>
-          </li>
-          <li>
-            <a href="search">Search</a>
-          </li>
-          <li>
-            <a href="experience">Experiences</a>
-          </li>
-          <li>
-            <a href="discovery">Discovery</a>
-          </li>
-          <li>
-            <a href="gallery">Gallery</a>
-          </li>
-          <li>
-            <a href="contact">Contact</a>
-          </li>
-        </ul>
       </>
     );
   }

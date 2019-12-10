@@ -1,0 +1,74 @@
+[
+  {
+    "id": "place1",
+    "name": "CN Tower",
+    "area": "Tower in Entertainment & Financial Districts",
+    "image": "https://images.unsplash.com/photo-1496012407504-b55ea740d172?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80",
+    "description": "Toronto's iconic CN Tower, a communications spire and a marvel of 1970s engineering, looks like a giant concrete hypodermic needle. Riding one of the glass elevators up what was once the world's highest freestanding structure (553m) is one of those things you just have to do in Toronto. Even if you don't, you're bound to catch a glimpse of the tower at night: the entire structure puts on a brilliant (free) light show year-round.",
+    "link": "https://www.getyourguide.com/toronto-l177/toronto-5-hour-ultimate-tour-t98025/",
+    "street": "301 Front St W",
+    "phone": "416-868-6937",
+    "hours": "8:30am-11pm",
+    "website": "https://www.cntower.ca/intro.html"
+  },
+  {
+    "id": "place2",
+    "name": "Royal Ontario Museum",
+    "area": "Museum in Yorkville & the Annex",
+    "image": "https://images.unsplash.com/photo-1538295012701-0c25e3eccec1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+    "description": "Opened in 1914, the multidisciplinary ROM is Canada's biggest natural-history museum and one of the largest museums in North America. You'll either love or loathe the synergy between the original heritage buildings at the main entrance on Bloor St and the 2007 addition of 'the Crystal,' which appears to pierce the original structure and juts out into the street like a massive shard. There are free docent-led tours daily.",
+    "link": "https://www.viator.com/Toronto/d623-ttd/p-17145P1?aid=vba6296en2&eap=dotcomDesktop-17145P1-6296",
+    "street": "100 Queen's Park",
+    "phone": "416-586-8000",
+    "hours": "10am-5:30pm",
+    "website": "https://www.rom.on.ca/en"
+  },
+  {
+    "id": "place3",
+    "name": "Distillery District",
+    "area": "Area in Old Town, Corktown & Distillery District",
+    "image": "https://images.unsplash.com/photo-1545321288-d6a54310b23a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80",
+    "description": "Centered on the 1832 Gooderham and Worts distillery – once the British Empire's largest – the 5-hectare Distillery District is one of Toronto's best downtown attractions. Its Victorian industrial warehouses have been converted into soaring galleries, artists studios, design boutiques, cafes and eateries. On weekends newlyweds pose before a backdrop of red brick and cobblestone, young families walk their dogs and the fashionable shop for art beneath charmingly decrepit gables and gantries. In summer expect live jazz, activities, exhibitions and foodie events.",
+    "link": "https://www.viator.com/Toronto/d623-ttd/p-5597P2?aid=vba6296en2&eap=dotcomDesktop-5597P2-6296",
+    "street": "9 Trinity St",
+    "phone": "416-364-1177",
+    "hours": "10am-7pm Mon-Wed, to 8pm Thu-Sat, 11am-6pm Sun",
+    "website": "https://www.thedistillerydistrict.com/"
+  },
+  {
+    "id": "place4",
+    "name": "Habourfront Centre",
+    "area": "Arts Center in Waterfront",
+    "image": "https://images.unsplash.com/photo-1533417457911-4ec911485388?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80",
+    "description": "An artistic powerhouse, this 4-hectare complex educates and entertains Toronto's community through a variety of year-round performances, events and exhibits. The center is made up of more than two dozen waterfront venues, including parks, outdoor stages, theaters and galleries. The main building alone houses the well-respected Craft & Design Studios, open studios where the public can watch artists-in-residence at work; the 1300-seat Concert Stage; and even a lakeside rink where you can slice up the winter ice.",
+    "link": "https://www.viator.com/Toronto/d623-ttd/p-5868CRUISE?aid=vba6296en2&eap=dotcomDesktop-5868CRUISE-6296&_ga=2.228033693.1602055029.1575301769-1870173255.1574779258",
+    "street": "235 Queens Quay W",
+    "phone": "416-973-4000",
+    "hours": "10am-11pm Mon-Sat, to 9pm Sun",
+    "website": "http://www.harbourfrontcentre.com/"
+  },
+  {
+    "id": "place5",
+    "name": "High Park",
+    "area": "Park in West End",
+    "image": "https://images.unsplash.com/photo-1494679493189-8d8c38804d39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+    "description": "Toronto's favorite green space is a wonderful spot to unfurl a picnic blanket, swim, play tennis, bike around, skate on 14-hectare Grenadier Pond or – in spring – meander through the groves of cherry blossoms donated by the Japanese ambassador in 1959. Several nature walks, workshops and talks are organized by the Nature Centre (https://highparknaturecentre.com) and led by rangers. Shakespeare in High Park has been produced in the park's amphitheater for almost 40 years.",
+    "link": "https://www.viator.com/Toronto/d623-ttd/p-23819P2?aid=vba6296en2&eap=dotcomDesktop-23819P2-6296",
+    "street": "1873 Bloor St W",
+    "phone": "416-364-1177",
+    "hours": "dawn-dusk",
+    "website": "https://www.toronto.ca/explore-enjoy/parks-gardens-beaches/"
+  },
+  {
+    "id": "place6",
+    "name": "Eaton Centre",
+    "area": "Mall in Downtown Yonge",
+    "image": "https://images.unsplash.com/photo-1570037769027-2d945b1b65d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1332&q=80",
+    "description": "Located between two subway stations and opposite Yonge & Dundas Sq, downtown Toronto's largest shopping mall has branches of almost every large retailer in North America, and some not-so-well-known local stores. Constantly full of people milling about and thinning their wallets, its enormous light-filled atrium is a haven on cold winter days. The Urban Eatery food court gets packed at lunchtime.",
+    "link": "https://www.cfshops.com/toronto-eaton-centre.html",
+    "street": "220 Yonge St",
+    "phone": "416-598-8560",
+    "hours": "10am-9:30pm Mon-Fri, 9:30am-9:30pm Sat, 10am-7pm Sun",
+    "website": "https://www.cfshops.com/toronto-eaton-centre.html"
+  }
+]

@@ -1,0 +1,44 @@
+.card-content {
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+}
+
+.card-title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.card {
+  border-radius: 20px;
+}
+.row .col.m4 {
+  width: 100%;
+}
+
+.section {
+  position: relative;
+  bottom: 350px;
+}
+
+.card-image {
+  width: 314px;
+  height: 450px;
+}
+
+.card .card-image img {
+  display: block;
+  border-radius: 20px 20px 0 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.place-title {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

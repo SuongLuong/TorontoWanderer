@@ -1,4 +1,13 @@
-img {
-  width: 500px;
-  height: 500px;
+.slider-section {
+}
+
+.heading {
+  font-family: "Baskervville", serif;
+  font-size: 100px;
+  line-height: 100px;
+
+  &__subtitle {
+    font-family: serif;
+    font-size: 40px;
+  }
 }

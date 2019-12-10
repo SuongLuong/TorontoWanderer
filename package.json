@@ -2,11 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "description": "Toronto Wanderer",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "start:prod": "cross-env NODE_ENV=production nodemon index.js",
+    "start:prod": "cross-env NODE_ENV=production nodemon server.js",
     "start:client": "cd client && npm start",
     "build:client": "cd client && npm run build",
     "setup:all": "npm install && cd client && npm install",
@@ -17,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "cross-env": "^6.0.3",
     "express": "^4.17.1",
     "moment": "^2.24.0",
     "react-router": "^5.1.2",

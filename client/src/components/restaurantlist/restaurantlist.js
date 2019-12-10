@@ -4,6 +4,7 @@ import Restaurant from "../restaurant/restaurant";
 import Search from "../search/search";
 import axios from "axios";
 import Flip from "react-reveal/Flip";
+import { SERVER_ADDR } from "../../config";
 
 class RestaurantList extends React.Component {
   state = {
@@ -13,7 +14,7 @@ class RestaurantList extends React.Component {
 
   componentDidMount() {
     axios
-      .get("http://localhost:8080/restaurants")
+      .get(SERVER_ADDR + "/restaurants")
       .then(response => {
         this.setState({
           restaurants: response.data

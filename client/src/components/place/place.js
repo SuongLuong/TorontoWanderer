@@ -6,6 +6,7 @@ import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import { SERVER_ADDR } from "../../config";
 
 class Place extends React.Component {
   state = {
@@ -14,7 +15,7 @@ class Place extends React.Component {
 
   componentDidMount() {
     axios
-      .get("http://localhost:8080/places")
+      .get(SERVER_ADDR + "/places")
       .then(response => {
         this.setState({
           place: response.data

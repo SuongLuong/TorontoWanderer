@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
 import "./style.scss";
+import { SERVER_ADDR } from "../../config";
 
 class PlaceDetail extends React.Component {
   state = {
@@ -10,7 +11,7 @@ class PlaceDetail extends React.Component {
   componentDidMount() {
     let id = this.props.match.params.id;
     axios
-      .get(`http://localhost:8080/places/${id}`)
+      .get(`${SERVER_ADDR}/places/${id}`)
       .then(response => {
         this.setState({
           placeDetail: response.data

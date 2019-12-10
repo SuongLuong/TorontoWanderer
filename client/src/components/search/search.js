@@ -9,10 +9,10 @@ class Search extends React.Component {
       data: {
         "Italy Restaurant": null,
         "Vietnameese Restaurant": null,
-        Bars: null,
+        Bar: null,
         Drinks: null,
         Restaurants: null,
-        Spots: null,
+        "Coffee Shop": null,
         Weather: null,
         "Public Transportation": null,
         BubbleTea: null,

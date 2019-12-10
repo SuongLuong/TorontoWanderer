@@ -1,10 +1,11 @@
 import React from "react";
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css";
-import "./style.scss";
 import ttc1 from "../../assets/img/vectore-img1.png";
 import ttc2 from "../../assets/img/vectore-img2.png";
 import ttc3 from "../../assets/img/vectore-img3.png";
+
+import "./style.scss";
 
 class Information extends React.Component {
   componentDidMount() {
@@ -14,6 +15,7 @@ class Information extends React.Component {
     const parallax = document.querySelectorAll(".parallax");
     M.Parallax.init(parallax, {});
   }
+
   render() {
     return (
       <>
@@ -30,7 +32,7 @@ class Information extends React.Component {
             nightlife, sophisticated shopping, eclectic restaurants, and teams
             in virtually every professional sport. Don’t miss the thriving arts
             scene—including theater, concerts, galleries, and red-carpet film
-            festivals. —Michele Peterson
+            festivals. — Michele Peterson
           </p>
           <ul className="collapsible popout collapse">
             <li>

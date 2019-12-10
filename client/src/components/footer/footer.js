@@ -19,17 +19,17 @@ class Footer extends React.Component {
                 <h5 className="white-text">Connect</h5>
                 <ul>
                   <li>
-                    <a className="grey-text text-lighten-3" href="#!">
+                    <a className="grey-text text-lighten-3" href="/">
                       About Us
                     </a>
                   </li>
                   <li>
-                    <a className="grey-text text-lighten-3" href="#!">
+                    <a className="grey-text text-lighten-3" href="/">
                       Contact us
                     </a>
                   </li>
                   <li>
-                    <a className="grey-text text-lighten-3" href="#!">
+                    <a className="grey-text text-lighten-3" href="/">
                       Blog
                     </a>
                   </li>

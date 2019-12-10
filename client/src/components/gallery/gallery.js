@@ -28,6 +28,7 @@ class Gallery extends React.Component {
       autoplaySpeed: 0,
       cssEase: "linear"
     };
+
     return (
       <>
         <h1 className="gallery__title">Community</h1>

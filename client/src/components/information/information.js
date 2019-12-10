@@ -32,7 +32,7 @@ class Information extends React.Component {
             nightlife, sophisticated shopping, eclectic restaurants, and teams
             in virtually every professional sport. Don’t miss the thriving arts
             scene—including theater, concerts, galleries, and red-carpet film
-            festivals. — Michele Peterson
+            festivals.
           </p>
           <ul className="collapsible popout collapse">
             <li>

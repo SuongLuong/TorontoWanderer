@@ -29,6 +29,7 @@ function App() {
                 <Place id="section3" />
                 <RestaurantList id="section4" />
                 <Gallery />
+                <Footer />
               </>
             )}
           />
@@ -36,7 +37,6 @@ function App() {
           <Route exact path="/restaurants/:id" component={RestaurantDetail} />
         </Switch>
       </BrowserRouter>
-      <Footer />
     </>
   );
 }

@@ -2,13 +2,14 @@ import React from "react";
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css";
 import "./style.scss";
-import { Link } from "react-scroll";
 
 class Navigation extends React.Component {
   componentDidMount() {
     const sideNav = document.querySelector(".sidenav");
     M.Sidenav.init(sideNav, {});
   }
+
+  s;
 
   render() {
     return (
@@ -25,36 +26,14 @@ class Navigation extends React.Component {
                   <li className="nav-list">
                     <a href="/">Home</a>
                   </li>
-
                   <li className="nav-list">
-                    <Link
-                      activeClass="active"
-                      to="section3"
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
-                    >
-                      Experiences
-                    </Link>
+                    <a href="#place">Experiences</a>
                   </li>
                   <li className="nav-list">
-                    <Link
-                      activeClass="active"
-                      to="section4"
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
-                    >
-                      Search
-                    </Link>
+                    <a href="#contact">Contact</a>
                   </li>
                   <li className="nav-list">
-                    <a href="gallery">Gallery</a>
-                  </li>
-                  <li className="nav-list">
-                    <a href="contact">Contact</a>
+                    <a href="#gallery">Gallery</a>
                   </li>
                 </ul>
               </div>

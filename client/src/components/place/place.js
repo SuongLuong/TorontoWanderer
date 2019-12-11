@@ -7,6 +7,7 @@ import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import { SERVER_ADDR } from "../../config";
+import M from "materialize-css";
 
 class Place extends React.Component {
   state = {
@@ -14,6 +15,13 @@ class Place extends React.Component {
   };
 
   componentDidMount() {
+    let option = {
+      throttle: 100,
+      scrollOffset: 200,
+      activeClass: "active"
+    };
+    const ss = document.querySelector(".scrollspy");
+    M.ScrollSpy.init(ss, option);
     axios
       .get(SERVER_ADDR + "/places")
       .then(response => {
@@ -42,7 +50,7 @@ class Place extends React.Component {
     return (
       <>
         {this.state.place.length === 0 ? null : (
-          <section id="popular" className="section section-popular scrollspy">
+          <section id="place" className="section section-popular scrollspy">
             <h1 className="place-title">Top Experiences in Toronto</h1>
             <div className="row">
               <Slider {...settings} className="container">

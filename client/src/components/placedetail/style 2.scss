@@ -1,0 +1,57 @@
+.placedetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  &__img {
+    width: 700px;
+    height: 800px;
+  }
+
+  &__name {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 600;
+  }
+
+  &__area {
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
+  }
+
+  &__left {
+    margin-left: 32px;
+  }
+
+  &__right {
+    width: 100%;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+  &__description {
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+  }
+
+  &__ticket {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  &__detail {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  &__detaillist {
+    font-size: 15px;
+  }
+
+  &__bstn {
+    border: 1px solid seagreen;
+    border-radius: 10px;
+    background-color: deepskyblue;
+  }
+}

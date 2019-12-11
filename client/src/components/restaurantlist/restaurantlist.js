@@ -43,35 +43,37 @@ class RestaurantList extends React.Component {
 
     return (
       <>
-        <h2 className="rest-title">Local Favourite Restaurants</h2>
-        <Search handleInput={this.handleInput} />
-        <div className="fooditem">
-          {filteredRestaurant.map(item => {
-            const {
-              id,
-              name,
-              type,
-              image,
-              description,
-              hours,
-              location
-            } = item;
-            return (
-              <Flip key={id} left>
-                <Restaurant
-                  key={name}
-                  name={name}
-                  type={type}
-                  image={image}
-                  location={location}
-                  hours={hours}
-                  description={description}
-                  id={id}
-                />
-              </Flip>
-            );
-          })}
-        </div>
+        <section>
+          <h2 className="rest-title">Local Favourite Restaurants</h2>
+          <Search handleInput={this.handleInput} />
+          <div className="fooditem">
+            {filteredRestaurant.map(item => {
+              const {
+                id,
+                name,
+                type,
+                image,
+                description,
+                hours,
+                location
+              } = item;
+              return (
+                <Flip key={id} left>
+                  <Restaurant
+                    key={name}
+                    name={name}
+                    type={type}
+                    image={image}
+                    location={location}
+                    hours={hours}
+                    description={description}
+                    id={id}
+                  />
+                </Flip>
+              );
+            })}
+          </div>
+        </section>
       </>
     );
   }

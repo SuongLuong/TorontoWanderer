@@ -1,7 +1,5 @@
 .gallery {
-  background-image: url("../../assets/img/christmasbg.jpeg");
-  background-size: cover;
-  background-position: center;
+  background-color: white;
   height: 800px;
 
   &__img {
@@ -11,6 +9,7 @@
   &__section {
     position: relative;
     margin-left: 20px;
+    margin-top: 70px;
   }
 
   &__title {

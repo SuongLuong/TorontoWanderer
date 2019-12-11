@@ -47,7 +47,7 @@ class PlaceDetail extends React.Component {
                 </p>
                 <div>
                   <h4 className="placedetails__ticket">Tickets and tours</h4>
-                  <a href={this.state.placeDetail.link}>
+                  <a href={this.state.placeDetail.link} target="_blank">
                     <button className="placedetails__bstn">Buy Ticket</button>
                   </a>
                 </div>
@@ -64,7 +64,7 @@ class PlaceDetail extends React.Component {
                       Hours: {this.state.placeDetail.hours}
                     </p>
                   </div>
-                  <a href={this.state.placeDetail.website}>
+                  <a href={this.state.placeDetail.website} target="_blank">
                     <p>Check their Website</p>
                   </a>
                 </div>

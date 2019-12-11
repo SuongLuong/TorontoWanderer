@@ -1,0 +1,40 @@
+.item {
+  display: inline-block;
+  border: 1px solid blanchedalmond;
+  width: 200px;
+  height: 350px;
+  background-image: url("../../assets/img/restaurantbackground.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 30px;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+}
+
+.foodlistsec {
+  display: inline-block;
+  position: relative;
+  bottom: 300px;
+  margin-left: 80px;
+  display: flex;
+  margin-top: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.zoom {
+  transition: transform 0.3s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}

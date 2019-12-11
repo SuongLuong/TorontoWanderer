@@ -23,10 +23,7 @@ class Search extends React.Component {
   render() {
     return (
       <>
-        <section
-          id="search"
-          className="section section-search light-blue darken-1 white-text center scrollspy"
-        >
+        <section className="section section-search light-blue darken-1 white-text center scrollspy">
           <div className="container">
             <div className="row">
               <div className="col s12">

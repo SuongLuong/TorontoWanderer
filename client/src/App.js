@@ -9,8 +9,8 @@ import PlaceDetail from "./components/placedetail/placedetail";
 import RestaurantDetail from "./components/restaurantdetail/restaurantdetail";
 import Video from "./components/video/video";
 import RestaurantList from "./components/restaurantlist/restaurantlist";
-import Footer from "./components/footer/footer";
 import Gallery from "./components/gallery/gallery";
+import Follow from "./components/follow/follow";
 
 function App() {
   return (
@@ -24,12 +24,12 @@ function App() {
             render={props => (
               <>
                 <Slider />
-                <Information id="section1" />
-                <Video id="section2" />
-                <Place id="section3" />
-                <RestaurantList id="section4" />
+                <Information />
+                <Video />
+                <Place />
+                <RestaurantList />
                 <Gallery />
-                <Footer />
+                <Follow />
               </>
             )}
           />

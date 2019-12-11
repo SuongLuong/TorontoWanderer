@@ -12,10 +12,14 @@ import g9 from "../../assets/img/g9.jpg";
 import g10 from "../../assets/img/g10.jpg";
 import g11 from "../../assets/img/g11.jpg";
 import g12 from "../../assets/img/g12.jpg";
-
+import M from "materialize-css";
 import "./style.scss";
 
 class Gallery extends React.Component {
+  componentDidMount() {
+    const ss1 = document.querySelector(".scrollspy");
+    M.ScrollSpy.init(ss1, {});
+  }
   render() {
     var settings = {
       dots: false,
@@ -31,33 +35,37 @@ class Gallery extends React.Component {
 
     return (
       <>
-        <h1 className="gallery__title">Community</h1>
-        <Slider className="gallery" {...settings}>
-          <div className="gallery__section">
-            <img className="g1 hvr-float gallery__img" src={g1} alt="" />
-            <img className="g2 hvr-float gallery__img" src={g2} alt="" />
-          </div>
-          <div className="gallery__section">
-            <img className="g3 hvr-float gallery__img" src={g3} alt="" />
-            <img className="g4 hvr-float gallery__img" src={g4} alt="" />
-          </div>
-          <div className="gallery__section">
-            <img className="g5 hvr-float gallery__img" src={g5} alt="" />
-            <img className="g6 hvr-float gallery__img" src={g6} alt="" />
-          </div>
-          <div className="gallery__section">
-            <img className="g7 hvr-float gallery__img" src={g7} alt="" />
-            <img className="g8 hvr-float gallery__img" src={g8} alt="" />
-          </div>
-          <div className="gallery__section">
-            <img className="g9 hvr-float gallery__img" src={g9} alt="" />
-            <img className="g10 hvr-float gallery__img" src={g10} alt="" />
-          </div>
-          <div className="gallery__section">
-            <img className="g11 hvr-float gallery__img" src={g11} alt="" />
-            <img className="g12 hvr-float gallery__img" src={g12} alt="" />
-          </div>
-        </Slider>
+        {" "}
+        <section id="gallery" className="scrollspy">
+          <h1 className="gallery__title">Community</h1>
+
+          <Slider className="gallery" {...settings}>
+            <div className="gallery__section">
+              <img className="g1 hvr-float gallery__img" src={g1} alt="" />
+              <img className="g2 hvr-float gallery__img" src={g2} alt="" />
+            </div>
+            <div className="gallery__section">
+              <img className="g3 hvr-float gallery__img" src={g3} alt="" />
+              <img className="g4 hvr-float gallery__img" src={g4} alt="" />
+            </div>
+            <div className="gallery__section">
+              <img className="g5 hvr-float gallery__img" src={g5} alt="" />
+              <img className="g6 hvr-float gallery__img" src={g6} alt="" />
+            </div>
+            <div className="gallery__section">
+              <img className="g7 hvr-float gallery__img" src={g7} alt="" />
+              <img className="g8 hvr-float gallery__img" src={g8} alt="" />
+            </div>
+            <div className="gallery__section">
+              <img className="g9 hvr-float gallery__img" src={g9} alt="" />
+              <img className="g10 hvr-float gallery__img" src={g10} alt="" />
+            </div>
+            <div className="gallery__section">
+              <img className="g11 hvr-float gallery__img" src={g11} alt="" />
+              <img className="g12 hvr-float gallery__img" src={g12} alt="" />
+            </div>
+          </Slider>
+        </section>
       </>
     );
   }

@@ -1,3 +1,5 @@
+@import "../../styles/base.scss";
+
 #myVideo {
   position: relative;
   margin-top: 30px;
@@ -6,6 +8,10 @@
 }
 
 .content {
+  @include tablet() {
+    padding-left: 500px;
+    bottom: 550px;
+  }
   font-family: "Orbitron", sans-serif;
   font-size: 35px;
   padding-left: 600px;

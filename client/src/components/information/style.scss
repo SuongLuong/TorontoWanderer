@@ -1,3 +1,5 @@
+@import "../../styles/base.scss";
+
 .collapse {
   width: 100%;
   border: none;
@@ -49,6 +51,10 @@
 }
 
 .collapsible-header {
+  @include tablet() {
+    position: relative;
+    left: 500px;
+  }
   position: relative;
   left: 600px;
   border: none;

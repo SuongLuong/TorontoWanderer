@@ -22,7 +22,7 @@ class Follow extends React.Component {
                 </a>
                 <p className="black-text text-lighten-4">
                   © 2019 All rights reserved. No part of this site may be
-                  reproduced without our written permission.
+                  reproduced without our written permission
                 </p>
                 <p>
                   Follow us on social media for more interesting information

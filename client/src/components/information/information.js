@@ -4,7 +4,7 @@ import M from "materialize-css";
 import ttc1 from "../../assets/img/vectore-img1.png";
 import ttc2 from "../../assets/img/vectore-img2.png";
 import ttc3 from "../../assets/img/vectore-img3.png";
-
+import "../../styles/base.scss";
 import "./style.scss";
 
 class Information extends React.Component {
